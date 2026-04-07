@@ -1,0 +1,21 @@
+{
+  "name": "psris2-rapport-it",
+  "version": "1.0.0",
+  "description": "P@SRIS2 — Application Rapport Mensuel IT | Zone Sanitaire Parakou-N'Dali",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sql.js": "^1.10.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.6",
+    "express-rate-limit": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
